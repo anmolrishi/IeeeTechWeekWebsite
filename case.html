@@ -10,10 +10,12 @@
     <link rel="shortcut icon" href="images/favicon.jpeg" type="image/x-icon">
 </head>
 
+
+
 <body>
     <!-- <section class="hero"> -->
         <!-- <h1>BANNER</h1> -->
-        <img src="images/codeBuddy.png" style="height: 100vh; width:90%">
+        <img src="images/codeBuddy.png" class="responsive" >
     <!-- </section> -->
     <section class="about">
         <h1>IEEE NSIT Case Challenge</h1>
@@ -80,6 +82,21 @@
             </div>
         </div>
     </section>
+
+    <style type="text/css">
+
+    .responsive{
+        height: 100vh; 
+        width:100%;
+
+    }
+
+    @media screen and (max-width: 600px) {
+    .responsive{
+        height: 70vh;
+    }
+    }
+</style>
 </body>
 
 </html>
